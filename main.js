@@ -1,4 +1,6 @@
-export function main() {
+import { fetchg } from "./data.js";
+
+function main() {
   console.log("cao drugari");
   const button = document.createElement("button");
   const place = document.querySelector(".container");
@@ -9,4 +11,7 @@ export function main() {
 
 function fretchGalaxy() {
   console.log("galaxy");
+  fetchg();
 }
+
+export { main };
