@@ -23,6 +23,7 @@ function renderpic(data) {
     const desctiption = document.createElement("p");
     desctiption.innerHTML = `${text}`;
     place.appendChild(desctiption);
+    place.removeChild(button);
   }
 }
 
