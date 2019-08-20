@@ -1,10 +1,14 @@
-#galaxy {
-  display: block;
+.container {
   width: 80%;
   margin: 0 auto;
 }
-button:first-child {
-  color: brown;
-  float: right;
-  background: aqua;
+#galaxy {
+  display: block;
+  width: 95%;
+  margin: 0 auto;
+}
+button {
+  width: 20em;
+
+  margin: 0 auto;
 }
