@@ -1,0 +1,10 @@
+#galaxy {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+button:first-child {
+  color: brown;
+  float: right;
+  background: aqua;
+}
