@@ -4,7 +4,7 @@ const place = document.querySelector(".container");
 function createbutton() {
   const button = document.createElement("button");
 
-  button.innerHTML = "show me galaxy !!!";
+  button.innerHTML = "show me outerspace !!!";
   button.addEventListener("click", fretchGalaxy);
   place.appendChild(button);
 }
