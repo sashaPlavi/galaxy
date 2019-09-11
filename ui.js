@@ -13,18 +13,19 @@ function renderpic(data) {
   const url = data.url;
   console.log(data);
 
-  //const img = document.querySelector("img");
   place.innerHTML = `<img id ='galaxy' src ='${url}'>  `;
 
   const button = document.createElement("button");
   button.innerHTML = "show me description of picture !!!";
   button.addEventListener("click", adddescription);
+  button.setAttribute("id", "descriptionbtn");
   place.appendChild(button);
   function adddescription() {
     const text = data.explanation;
     const desctiption = document.createElement("p");
+    desctiption.setAttribute("id", "text");
+    desctiption.innerHTML = `${text} `;
 
-    desctiption.innerHTML = `${text}`;
     place.appendChild(desctiption);
     button.removeEventListener("click", adddescription);
     place.removeChild(button);
@@ -43,6 +44,7 @@ function renderpic(data) {
   function backButton() {
     const button = document.createElement("button");
     button.innerHTML = "prew day !!!";
+    button.setAttribute("id", "prewdaybtn");
     button.addEventListener("click", fretchGalaxyprew);
 
     place.prepend(button);

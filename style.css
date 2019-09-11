@@ -3,12 +3,24 @@
   margin: 0 auto;
 }
 #galaxy {
-  display: block;
-  width: 100%;
-  margin: 0 auto;
+  display: inline;
+  width: 80%;
 }
 button {
-  width: 20em;
+  width: 20rem;
 
   margin: 0 auto;
+}
+#text {
+  width: 17%;
+  float: right;
+  overflow: scroll;
+  height: 30rem;
+}
+#descriptionbtn {
+  float: right;
+  width: 15%;
+}
+#prewdaybtn {
+  margin-bottom: 1rem;
 }
