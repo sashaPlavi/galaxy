@@ -6,8 +6,8 @@
   display: inline;
   width: 80%;
 }
-button {
-  width: 20rem;
+#showmebtn {
+  width: 80%;
 
   margin: 0 auto;
 }
@@ -19,8 +19,21 @@ button {
 }
 #descriptionbtn {
   float: right;
-  width: 15%;
+  width: 19%;
 }
 #prewdaybtn {
+  width: 80%;
   margin-bottom: 1rem;
+}
+@media screen and (max-width: 650px) {
+  #descriptionbtn {
+    float: none;
+    width: 80%;
+  }
+  #text {
+    width: 80%;
+    float: none;
+    overflow: scroll;
+    height: 10rem;
+  }
 }

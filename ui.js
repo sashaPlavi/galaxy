@@ -6,6 +6,7 @@ function createbutton() {
   const button = document.createElement("button");
 
   button.innerHTML = "show me outerspace !!!";
+  button.setAttribute("id", "showmebtn");
   button.addEventListener("click", fretchGalaxy);
   place.appendChild(button);
 }
