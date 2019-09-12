@@ -44,7 +44,7 @@ function renderpic(data) {
 
   function backButton() {
     const button = document.createElement("button");
-    button.innerHTML = "prew day !!!";
+    button.innerHTML = "previous day !!!";
     button.setAttribute("id", "prewdaybtn");
     button.addEventListener("click", fretchGalaxyprew);
 
