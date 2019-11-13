@@ -12,6 +12,7 @@ button {
 }
 #galaxy {
   display: inline;
+
   width: 80%;
 }
 #showmebtn {
@@ -32,6 +33,7 @@ button {
   background-color: rgb(63, 63, 83);
   color: aliceblue;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
 }
 #descriptionbtn {
   border: none;
