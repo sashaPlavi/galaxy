@@ -40,6 +40,7 @@ function renderpic(data) {
     if (day == picday[2]) {
       backButton();
     }
+    reset();
   }
 
   function backButton() {
@@ -47,6 +48,14 @@ function renderpic(data) {
     button.innerHTML = "previous day !!!";
     button.setAttribute("id", "prewdaybtn");
     button.addEventListener("click", fretchGalaxyprew);
+
+    place.prepend(button);
+  }
+  function reset() {
+    const button = document.createElement("button");
+    button.innerHTML = "reset !!!";
+    button.setAttribute("id", "prewdaybtn");
+    button.addEventListener("click", fretchGalaxy);
 
     place.prepend(button);
   }
