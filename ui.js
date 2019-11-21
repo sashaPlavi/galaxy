@@ -14,7 +14,7 @@ function renderpic(data) {
   const url = data.url;
   console.log(data);
 
-  place.innerHTML = `<img id ='galaxy' src ='${url}'>  `;
+  place.innerHTML = `<img id ='galaxy' src ='${url}' alt='galaxy image'>  `;
 
   const button = document.createElement("button");
   button.innerHTML = "show me description of picture !!!";
