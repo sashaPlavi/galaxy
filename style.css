@@ -2,58 +2,51 @@ body {
   background-color: rgb(22, 20, 20);
   color: whitesmoke;
 }
+button {
+  border: none;
+  background-color: rgb(63, 63, 83);
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
 
 .container {
   width: 80%;
   margin: 0 auto;
   text-align: center;
 }
+#galaxy {
+  display: inline-block;
+  width: 100%;
+}
 
 #showmebtn {
+  display: block;
   border: none;
   width: 60%;
+
+  margin: 10rem auto;
+}
+#text {
+  width: 100%;
+  float: right;
+  overflow: scroll;
   height: 10rem;
   background-color: rgb(63, 63, 83);
   color: aliceblue;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 2rem;
-  margin: 10rem auto;
-}
-#text {
-  width: 17%;
-  float: right;
-  overflow: scroll;
-  height: 30rem;
-  background-color: rgb(63, 63, 83);
-  color: aliceblue;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 #descriptionbtn {
-  border: none;
-  background-color: rgb(63, 63, 83);
-  color: aliceblue;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.5rem;
-  float: right;
-  width: 19%;
+  width: 100%;
 }
 #prewdaybtn {
-  border: none;
-  background-color: rgb(63, 63, 83);
-  color: aliceblue;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.5rem;
   width: 100%;
   margin-bottom: 1rem;
 }
 @media screen and (max-width: 650px) {
-  #descriptionbtn {
-    float: none;
-    width: 80%;
-  }
   #text {
-    width: 80%;
+    width: 100%;
     float: none;
     overflow: scroll;
     height: 10rem;
